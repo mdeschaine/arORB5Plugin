@@ -20,7 +20,7 @@
 require_once sfConfig::get('sf_plugins_dir')
     .'/arDominionB5Plugin/config/arDominionB5PluginConfiguration.class.php';
 
-class arB5ThemePluginConfiguration extends arDominionB5PluginConfiguration
+class arB5PluginConfiguration extends arDominionB5PluginConfiguration
 {
     public static $summary = 'B5 theme plugin skeleton, extension of arDominionB5Plugin without modifications.';
     public static $version = '0.0.1';

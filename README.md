@@ -1,49 +1,54 @@
-# AtoM B5 theme plugin skeleton
+# AtoM Dominion BS5 Theme Plugin Skeleton
 
-Initial skeleton for an AtoM theme plugin, extending arDominionB5Plugin without
+Initial skeleton for an AtoM theme plugin, extending arDominionB5Plugin without 
 modifications.
 
-Requires an AtoM version including such theme (currently under developmemt in
-https://github.com/artefactual/atom/tree/dev-test/issue-13530-b5-themes).
+Requires an AtoM version of 2.7, or up, to include such theme.
 
-- Clone this respository inside AtoM's plugins folder (from the main folder).
+## Clone repository to AtoM's plugin folder
+
+Clone repository **_within AtoM's plugin folder_** and delete git related files.
 
   ```
-  git clone --depth=1 git@gitlab.artefactual.com:software-development/arB5ThemePlugin.git plugins/arB5ThemePlugin
-  rm -rf plugins/arB5ThemePlugin/.git
+  git clone --depth=1 https://github.com/artefactual-labs/arThemeB5Plugin.git plugins/arThemeB5Plugin
+
+  rm -rf plugins/arThemeB5Plugin/.git plugins/arB5ThemePlugin/README.md
   ```
 
-- Modify the plugin:
+### Modify the plugin:
 
   - Rename the plugin folder.
-  - Rename the [config class filename](config/arB5ThemePluginConfiguration.class.php).
-  - Rename the [config class name](config/arB5ThemePluginConfiguration.class.php#L23).
-  - Modify the [theme summary and version](config/arB5ThemePluginConfiguration.class.php#L25-26).
+  - Rename the [config filename](config/arThemeB5PluginConfiguration.class.php).
+  - Rename the [config class name](config/arThemeB5PluginConfiguration.class.php#L23).
+  - Modify the [theme summary and version](config/arThemeB5PluginConfiguration.class.php#L25-26).
   - Update the [theme image](images/image.png) (shown in the themes page).
 
-- Extend/customize the plugin:
+> **IMPORTANT:** config filename and config class name must be the same as the plugin folder name
+>
+> ex. for `plugins/arThemeB5Plugin`, a config file named `arThemeB5PluginConfiguration.class.php`
+> is required with a class named `arThemeB5PluginConfiguration`
 
-  - Check the [main SCSS file](scss/main.scss) for styles.
-  - Check the [main JS file](js/main.js) for scripts.
-  - Overwrite main templates in the templates folder.
-  - Overwrite actions and templates from other modules in a modules folder.
+### Extend/customize the plugin:
 
-- Build the theme assets:
+  - Add styling changes directly to, or link stylesheets in, [main SCSS file](scss/main.scss).
+  - Link scripts to [main JS file](js/main.js).
+  - Copy any actions and templates files required to the new `plugins/arThemeB5Plugin` directory to overwrite files.
+    - copy files from `plugins/arDominionB5Plugin`, if available, and from `apps/qubit` only when
+      required files are not available in `plugins/arDominionB5Plugin` [due to precedence]
+    - place copied files into `plugins/arThemeB5Plugin/modules` with the same path
+
+      > Examples
+      > 
+      > `/apps/qubit/templates/_footer.php` => `plugins/arThemeB5Plugin/templates/_footer.php`
+      >
+      > `/plugins/arDominionB5Plugin/modules/informationobject/templates/_editActions.php`
+      > => `plugins/arThemeB5Plugin/modules/informationobject/templates/_editActions.php`
+
+### Build the BS5 theme assets:
 
   ```
-  docker-compose exec atom npm install
-  docker-compose exec atom npm run build
-  ```
+  npm install
+  npm run build
 
-- Watch for changes during development:
-
-  ```
-  docker-compose exec atom npm run watch
-  ```
-
-- Linting (add the plugin to the `.prettierignore` file in AtoM's main folder):
-
-  ```
-  docker-compose exec atom npm run check-format
-  docker-compose exec atom npm run format
+  php symfony cc       # clear cache [OPTIONAL]
   ```
