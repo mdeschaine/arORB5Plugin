@@ -22,7 +22,7 @@ require_once sfConfig::get('sf_plugins_dir')
 
 class arORB5PluginConfiguration extends arDominionB5PluginConfiguration
 {
-    public static $summary = 'B5 theme plugin skeleton, extension of arDominionB5Plugin without modifications.';
+    public static $summary = 'B5 theme plugin, for OHSDC.';
     public static $version = '0.0.1';
 
     public function initialize()
