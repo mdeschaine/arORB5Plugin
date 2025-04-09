@@ -64,11 +64,11 @@
       <img src="/plugins/arORB5Plugin/images/OrgLot146_b06_SalemCapital_4.jpg" class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
-      <div class="card-body">
+      <div class="card-body text-wrap">
         <h4 class="card-title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</h4>
         <p class="card-text">Listen to 212 Oral History interviews of significant legal and political figures, originally created on analog audio and video tapes and previously available only onsite in the OHS Research Library.</p>
         <p class="card-text"><small class="text-muted">Funded by the Institute of Museum and Library Services</small></p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+        <a href="#" class="btn btn-primary end">Learn More</a>
       </div>
     </div>
   </div>
@@ -78,7 +78,7 @@
 <div class="card mb-3" style="max-height: 500px;">
   <div class="row g-0">
     <div class="col-md-8">
-      <div class="card-body">
+      <div class="card-body text-wrap">
         <h4 class="card-title">Reuniting Finley and Bohlman</h4>
         <p class="card-text">A partnership between the Oregon Historical Society Research Library and the Oregon State University Libraries Special Collections and Archives Research Center to digitize the Finley and Bohlman photograph and manuscript collections held by our libraries. Now reunited online, the materials represent over fifty years (1899-1946) of work to document and protect the diversity of bird life in Oregon.</p>
         <p class="card-text"><small class="text-muted">Funded by the Institute of Museum and Library Services</small></p>
