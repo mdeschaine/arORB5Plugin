@@ -54,18 +54,18 @@
                 <div class="mod mod-over-img">See What's New</div>
             </a>
         </div>
-        <div class="span8" id="virtual-exhibit">
-            <a href="/digitizing-the-oregon-story" title="Read more about the Digitizing the Oregon Story project.">
-                <h3>
-                    <?php echo __('Featured Project') ?>
-                    <span class="title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</span>
-                    <span class="small">Institute of Museum and Library Services</span>
-                </h3>
-                <div>&nbsp;</div>
-            </a>
-        </div>
     </div>
 </div>
+<div class="card mb-3">
+  <img src="/plugins/arORB5Plugin/images/OrgLot146_b06_SalemCapital_4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</h5>
+    <p class="card-text">The Digitizing the Oregon Story project preserves and creates broad access to 212 Oral History interviews of significant legal and political figures, originally created on analog audio and video tapes and previously available only onsite in the OHS Research Library.</p>
+    <p class="card-text"><small class="text-muted">Funded by the Institute of Museum and Library Services</small></p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
