@@ -64,96 +64,59 @@
                 <div>&nbsp;</div>
             </a>
         </div>
-        <div class="span4">
-            <section id="cta">
-                <h1 class="module__hed"><a href="https://ohs.org/research-and-library/" target="_blank">Visit Our Research Library</a></h1>
-                <a class="more-link--large" href="https://ohs.org/research-and-library/" target="_blank">
-                    <!--[if gte IE 9]><!--><svg viewBox='0 0 100 100' class='icon-chevron-right-large'>
-                        <use xlink:href='#icon-chevron-right'></use>
-                    </svg>
-                    <!--<![endif]--></a>
-            </section>
-        </div>
     </div>
 </div>
-<div class="container">
-    <div id="slideshow">
-        <div class="slideshow-container">
-
-
-            <div id="slide1" class="mySlides" title="Learn more about the Al Monner News Negatives.">
-                <a href="/monner-project">
-                    <h3>
-                        <?php echo __('Featured Collection') ?>
-                        <div class="title">Al Monner News Negatives</div>
-                        <div class="small">Celebrating the end of World War II, downtown Portland</div>
-                    </h3>
-                </a>
-            </div>
-            <div id="slide2" class="mySlides" title="Read more about the Reuniting Finley and Bohlman Project.">
-                <a href="/reuniting-finley-and-bohlman">
-                    <h3>
-                        <?php echo __('Featured Collection') ?>
-                        <div class="title">Reuniting Finley and Bohlman</div>
-                        <div class="small">A partnership between Oregon Historical Society and Oregon State University</div>
-                    </h3>
-                </a>
-            </div>
-            <div id="slide3" class="mySlides" title="Browse Kiser Photographs.">
-                <a href="/us-ohy-org-lot-140">
-                    <h3>
-                        <?php echo __('Featured Collection') ?>
-                        <div class="title">Kiser Photo Co. Photographs</div>
-                        <div class="small">Bull Run and Mount Hood</div>
-                    </h3>
-                </a>
-            </div>
-            <div id="slide4" class="mySlides" title="Browse Oregon Journal Photographs.">
-                <a href="/us-ohy-org-lot-1368">
-                    <h3>
-                        <?php echo __('Featured Collection') ?>
-                        <div class="title">Oregon Journal Photographic Negatives</div>
-                        <div class="small">Train at Union Station, Portland</div>
-                    </h3>
-                </a>
-            </div>
-            <div id="slide5" class="mySlides" title="Browse PGE Photographs.">
-                <a href="/org-lot-151-portland-general-electric-photograph-collection">
-                    <h3>
-                        <?php echo __('Featured Collection') ?>
-                        <div class="title">Portland General Electric Photograph Collection</div>
-                        <div class="small">Oregon City, Station B</div>
-                    </h3>
-                </a>
-            </div>
-            <div id="slide6" class="mySlides" title="Browse OHS Maps.">
-                <a href="/ohs-maps-collection">
-                    <h3>
-                        <?php echo __('Featured Collection') ?>
-                        <div class="title">OHS Maps Collection</div>
-                        <div class="small">Oregon Skyline Trail : Pacific Crest system, 1936</div>
-                    </h3>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active"  data-bs-interval="10000">
       <img src="/plugins/arORB5Plugin/images/slide1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Al Monner News Negatives</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item"  data-bs-interval="10000">
       <img src="/plugins/arORB5Plugin/images/slide2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Reuniting Finley and Bohlman</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item"  data-bs-interval="10000">
       <img src="/plugins/arORB5Plugin/images/slide3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Kiser Photo Co. Photographs</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item"  data-bs-interval="10000">
+      <img src="/plugins/arORB5Plugin/images/slide4.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Oregon Journal Photographic Negatives</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item"  data-bs-interval="10000">
+      <img src="/plugins/arORB5Plugin/images/slide5.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Portland General Electric Photograph Collection</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item"  data-bs-interval="10000">
+      <img src="/plugins/arORB5Plugin/images/slide6.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>OHS Maps Collection</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
