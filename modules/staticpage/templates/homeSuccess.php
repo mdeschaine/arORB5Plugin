@@ -57,6 +57,7 @@
     </div>
 </div>
 
+<h5 class="card-header">Featured Project</h5>
 <div class="card mb-3" style="max-height: 500px;">
   <div class="row g-0">
     <div class="col-md-4">
@@ -65,19 +66,21 @@
     <div class="col-md-8">
       <div class="card-body">
         <h4 class="card-title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</h4>
-        <p class="card-text">Creating access to 212 Oral History interviews of significant legal and political figures, originally created on analog audio and video tapes and previously available only onsite in the OHS Research Library.</p>
+        <p class="card-text">Listen to 212 Oral History interviews of significant legal and political figures, originally created on analog audio and video tapes and previously available only onsite in the OHS Research Library.</p>
         <p class="card-text"><small class="text-muted">Funded by the Institute of Museum and Library Services</small></p>
         <a href="#" class="btn btn-primary">Learn More</a>
       </div>
     </div>
   </div>
 </div>
+
+<h5 class="card-header">Featured Project</h5>
 <div class="card mb-3" style="max-height: 500px;">
   <div class="row g-0">
     <div class="col-md-8">
       <div class="card-body">
         <h4 class="card-title">Reuniting Finley and Bohlman</h4>
-        <p class="card-text">a yearlong partnership between the Oregon Historical Society Research Library and the Oregon State University Libraries Special Collections and Archives Research Center to digitize the Finley and Bohlman photograph and manuscript collections held by our libraries. Now reunited online, the materials represent over fifty years (1899-1946) of work to document and protect the diversity of bird life in Oregon.</p>
+        <p class="card-text">A partnership between the Oregon Historical Society Research Library and the Oregon State University Libraries Special Collections and Archives Research Center to digitize the Finley and Bohlman photograph and manuscript collections held by our libraries. Now reunited online, the materials represent over fifty years (1899-1946) of work to document and protect the diversity of bird life in Oregon.</p>
         <p class="card-text"><small class="text-muted">Funded by the Institute of Museum and Library Services</small></p>
         <a href="#" class="btn btn-primary">Learn More</a>
       </div>
@@ -101,7 +104,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active"  data-bs-interval="10000">
       <img src="/plugins/arORB5Plugin/images/slide1.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block bg-dark">
         <h5>Al Monner News Negatives</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
@@ -115,28 +118,28 @@
     </div>
     <div class="carousel-item"  data-bs-interval="10000">
       <img src="/plugins/arORB5Plugin/images/slide3.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block bg-dark">
         <h5>Kiser Photo Co. Photographs</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item"  data-bs-interval="10000">
       <img src="/plugins/arORB5Plugin/images/slide4.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block bg-dark">
         <h5>Oregon Journal Photographic Negatives</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item"  data-bs-interval="10000">
       <img src="/plugins/arORB5Plugin/images/slide5.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block bg-dark">
         <h5>Portland General Electric Photograph Collection</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item"  data-bs-interval="10000">
       <img src="/plugins/arORB5Plugin/images/slide6.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block bg-dark">
         <h5>OHS Maps Collection</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
