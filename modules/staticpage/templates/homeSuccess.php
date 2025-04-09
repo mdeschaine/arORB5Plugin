@@ -1,4 +1,4 @@
-<?php decorate_with('layout_start'); ?>
+<?php decorate_with('layout'); ?>
 
 <?php slot('title'); ?>
   <h1><?php echo render_title($resource->getTitle(['cultureFallback' => true])); ?></h1>
