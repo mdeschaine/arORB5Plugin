@@ -33,9 +33,9 @@
 
 <?php end_slot(); ?>
 
-<div class="page p-3">
+/* <div class="page p-3">
   <?php echo render_value_html($sf_data->getRaw('content')); ?>
-</div>
+</div> */
 
 <?php if (QubitAcl::check($resource, 'update')) { ?>
   <?php slot('after-content'); ?>
