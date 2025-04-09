@@ -66,8 +66,8 @@
         </div>
         <div class="span4">
             <section id="cta">
-                <h1 class="module__hed"><a href="http://ohs.org/research-and-library/" target="_blank">Visit Our Research Library</a></h1>
-                <a class="more-link--large" href="http://ohs.org/research-and-library/" target="_blank">
+                <h1 class="module__hed"><a href="https://ohs.org/research-and-library/" target="_blank">Visit Our Research Library</a></h1>
+                <a class="more-link--large" href="https://ohs.org/research-and-library/" target="_blank">
                     <!--[if gte IE 9]><!--><svg viewBox='0 0 100 100' class='icon-chevron-right-large'>
                         <use xlink:href='#icon-chevron-right'></use>
                     </svg>
