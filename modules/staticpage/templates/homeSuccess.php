@@ -74,9 +74,6 @@
 </div>
 <div class="card mb-3" style="max-height: 500px;">
   <div class="row g-0">
-    <div class="col-md-4">
-      <img src="/plugins/arORB5Plugin/images/slide2.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
     <div class="col-md-8">
       <div class="card-body">
         <h4 class="card-title">Reuniting Finley and Bohlman</h4>
@@ -84,6 +81,9 @@
         <p class="card-text"><small class="text-muted">Funded by the Institute of Museum and Library Services</small></p>
         <a href="#" class="btn btn-primary">Learn More</a>
       </div>
+    </div>
+    <div class="col-md-4">
+      <img src="/plugins/arORB5Plugin/images/slide2.jpg" class="img-fluid rounded-end" alt="...">
     </div>
   </div>
 </div>
