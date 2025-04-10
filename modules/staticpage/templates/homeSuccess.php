@@ -58,7 +58,7 @@
 </div>
 
 <h5 class="card-header">Featured Project</h5>
-<div class="card mb-3" style="max-height: 500px;">
+<div class="card mb-4" style="max-height: 500px;">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="/plugins/arORB5Plugin/images/OrgLot146_b06_SalemCapital_4.jpg" class="img-fluid rounded-start" alt="...">
@@ -68,7 +68,7 @@
         <h4 class="card-title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</h4>
         <p class="card-text">Listen to 212 Oral History interviews of significant legal and political figures, originally created on analog audio and video tapes and previously available only onsite in the OHS Research Library.</p>
         <p class="card-text"><small class="text-muted">Funded by the Institute of Museum and Library Services</small></p>
-        <a href="#" class="btn btn-primary end">Learn More</a>
+        <a href="#" class="btn btn-primary">Learn More</a>
       </div>
     </div>
   </div>
