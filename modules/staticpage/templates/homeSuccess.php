@@ -30,23 +30,12 @@
     </section>
   <?php } ?>
 
-<div class="container">
-    <div id="homepage" class="row">
-
-        <div class="mod-new" title="See what's new">
-            <a class="mod-link" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0">
-                <div class="mod-img" style="background-image:url(/plugins/arORB5Plugin/images/new-box.jpg);"></div>
-                <div class="mod mod-over-img">See What's New</div>
-            </a>
-        </div>
-    </div>
-</div>
-<div class="row">
+<div class="row" style="max-height: 500px;">
   <div class="col-sm-8">
     <div class="card">
         <img src="/plugins/arORB5Plugin/images/new-box.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay">
-        <a href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0" class="btn btn-primary">See What's New</a>
+        <div class="card-img-overlay text-center">
+        <a href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0" class="btn btn-primary button-lg">See What's New</a>
       </div>
     </div>
   </div>
