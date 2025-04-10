@@ -29,7 +29,7 @@
       </div>
     </section>
   <?php } ?>
-  
+
 <div class="container">
     <div id="homepage" class="row">
 
@@ -40,6 +40,24 @@
             </a>
         </div>
     </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card w-75">
+        <div class="card-img-overlay">
+        <a href="#" class="btn btn-primary">See What's New</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card w-25">
+      <div class="card-body">
+        <h5 class="card-title">Visit The Library</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <h5 class="card-header">Featured Project</h5>
