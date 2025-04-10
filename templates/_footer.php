@@ -7,7 +7,7 @@
                 <p class="foot-signoff__message">The Oregon Historical Society is dedicated to making Oregon's long, rich history visible and accessible to all. For more than a century, the Oregon Historical Society has served as the state's collective memory, preserving a vast collection of artifacts, photographs, maps, manuscript materials, books, films, and oral histories. Our research library, museum, digital platform, educational programming, and historical journal make Oregon's history open and accessible to all. We exist because history is powerful, and because a history as deep and rich as Oregon's cannot be contained within a single story or point of view.</p>
             </header>
         </div>
-        <div class="row row-cols-3 gy-4">
+        <div class="row row-cols-3 row-cols-sm-1 gy-4">
             <div class="foot-contact col-md-3">
                 <h3 class="foot__section-title">Contact Us</h3>
                 <p>Oregon Historical Society <br>1200 SW Park Ave <br>Portland, OR 97205</p>
