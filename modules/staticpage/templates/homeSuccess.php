@@ -30,8 +30,8 @@
     </section>
   <?php } ?>
 
-<div class="container">
-    <div class="row" style="max-height: 500px;">
+<div class="container" style="max-height: 500px;">
+    <div class="row">
     <div class="col-sm-8">
         <div class="card">
             <img src="/plugins/arORB5Plugin/images/new-box.jpg" class="card-img" alt="...">
