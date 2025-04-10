@@ -5,10 +5,10 @@
 .welcome-message__container { background-image:url(/plugins/arORB5Plugin/images/homepage-bg.jpg); }
 }
 </style>
-<div class="welcome-message__container" title="...">
+<div class="welcome-message__container w-100" title="...">
 <div class="welcome-message__row row">
 <div class="welcome-message__inner">
-<h1 class="welcome-message" >Oregon Historical Society Digital Collections</h1>
+<h1 class="welcome-message">Oregon Historical Society Digital Collections</h1>
 </div>
 </div>
 </div>
