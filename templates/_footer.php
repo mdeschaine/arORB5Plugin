@@ -1,4 +1,5 @@
 <footer class="foot">
+<div class="container">
     <div class="row">
         <header class="foot-signoff">
             <a name="footer" id="footer"></a>
@@ -51,5 +52,5 @@
         <p class="foot__legal"><a class="foot-footer__link" href="http://www.ohs.org/contact.cfm" target="_blank">Contact OHS</a> <a class="foot-footer__link" href="http://www.ohs.org/privacy-policy.cfm" target="_blank">Privacy Policy</a> </p>
         <p class="foot__copyright">© Copyright 2017 Oregon Historical Society</p>
     </div>
-    
+</div>
 </footer>
