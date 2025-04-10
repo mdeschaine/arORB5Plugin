@@ -4,11 +4,15 @@
   <h1><?php echo render_title($resource->getTitle(['cultureFallback' => true])); ?></h1>
 <?php end_slot(); ?>
 
-<?php slot('sidebar'); ?>
-
-  <?php echo get_component('menu', 'staticPagesMenu'); ?>
-
-  <?php $browseMenu = QubitMenu::getById(QubitMenu::BROWSE_ID); ?>
+<?php if (QubitAcl::check($resource, 'update')) { ?>
+  <?php slot('after-content'); ?>
+    <section class="actions mb-3">
+      <?php echo link_to(__('Edit'), [$resource, 'module' => 'staticpage', 'action' => 'edit'], ['class' => 'btn atom-btn-outline-light']); ?>
+    </section>
+  <?php end_slot(); ?>
+<?php } ?>
+<?php echo get_component('menu', 'staticPagesMenu'); ?>
+<?php $browseMenu = QubitMenu::getById(QubitMenu::BROWSE_ID); ?>
   <?php if ($browseMenu->hasChildren()) { ?>
     <section class="card mb-3">
       <h2 class="h5 p-3 mb-0">
@@ -25,26 +29,7 @@
       </div>
     </section>
   <?php } ?>
-
-  <?php echo get_component('default', 'popular', [
-      'limit' => 10,
-      'sf_cache_key' => $sf_user->getCulture(),
-  ]); ?>
-
-<?php end_slot(); ?>
-
-/* <div class="page p-3">
-  <?php echo render_value_html($sf_data->getRaw('content')); ?>
-</div> */
-
-<?php if (QubitAcl::check($resource, 'update')) { ?>
-  <?php slot('after-content'); ?>
-    <section class="actions mb-3">
-      <?php echo link_to(__('Edit'), [$resource, 'module' => 'staticpage', 'action' => 'edit'], ['class' => 'btn atom-btn-outline-light']); ?>
-    </section>
-  <?php end_slot(); ?>
-<?php } ?>
-
+  
 <div class="container">
     <div id="homepage" class="row">
 
