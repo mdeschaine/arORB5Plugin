@@ -34,7 +34,7 @@
     <div class="row">
     <div class="col-sm-8">
         <div class="card">
-            <img src="/plugins/arORB5Plugin/images/new-box.jpg" class="card-img" alt="...">
+            <img src="/plugins/arORB5Plugin/images/new-box.jpg" class="card-img img-fluid" alt="...">
             <div class="card-img-overlay text-center">
             <a href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0" class="btn btn-primary button-lg">See What's New</a>
         </div>
@@ -140,12 +140,12 @@
         </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bg-dark"></span>
+    <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon bg-dark"></span>
+    <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
         <span class="visually-hidden">Next</span>
     </button>
     </div>
