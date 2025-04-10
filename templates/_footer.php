@@ -30,7 +30,7 @@
                     <br>1pm – 5pm
                     <br>Wednesday – Saturday:
                     <br>10am – 5pm</span></p>
-                <p><a class="CP___PAGEID_55275" href="https://www.ohs.org/research-and-library/visit-the-library/index.cfm" target="_blank">Visit the Library</a></p>
+                <p><a class="CP___PAGEID_55275" href="https://www.ohs.org/research-and-library/about-the-library/plan-your-visit/index.cfm" target="_blank">Visit the Library</a></p>
             </div>
             <div class="foot-support">
                 <h3 class="foot__section-title">Support OHS <br>Digital Collections</h3>
