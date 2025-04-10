@@ -1,4 +1,17 @@
 
+<style type="text/css">
+.welcome-message__container { background-image:url(/plugins/arORB5Plugin/images/homepage-bg.jpg); }
+@media (max-device-width: 667px) {
+.welcome-message__container { background-image:url(/plugins/arORB5Plugin/images/homepage-bg.jpg); }
+}
+</style>
+<div class="welcome-message__container" title="...">
+<div class="welcome-message__row row">
+<div class="welcome-message__inner">
+<h1 class="welcome-message" >Oregon Historical Society Digital Collections</h1>
+</div>
+</div>
+</div>
 <div id="homepage-hero" class="row" title="...">
     <div class="container">
             <?php echo get_component('menu', 'staticPagesMenu'); ?>
