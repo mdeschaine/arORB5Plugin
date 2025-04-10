@@ -157,7 +157,7 @@
 
 <div class="container">
     <div id="partner-block" class="row">
-        <div class="partner-sites">
+        <section class="partner-sites">
             <h2 class="partner-sites__hed">Content Partners</h2>
             <div class="partner-sites__grid">
                 <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
@@ -188,6 +188,6 @@
                     </div>
                 </a>
             </div>
-        </div>
+        </section>
     </div>
 </div>
