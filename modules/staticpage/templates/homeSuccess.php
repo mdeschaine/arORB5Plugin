@@ -1,38 +1,39 @@
 
-<style type="text/css">
-.welcome-message__container { background-image:url(/plugins/arORB5Plugin/images/homepage-bg.jpg); }
-@media (max-device-width: 667px) {
-.welcome-message__container { background-image:url(/plugins/arORB5Plugin/images/homepage-bg.jpg); }
-}
-</style>
-<div class="welcome-message__container w-100" title="...">
-<div class="welcome-message__row row">
-<div class="welcome-message__inner">
-<h1 class="welcome-message">Oregon Historical Society Digital Collections</h1>
-</div>
-</div>
-</div>
-<div id="homepage-hero" class="row" title="...">
-    <div class="container">
-            <?php echo get_component('menu', 'staticPagesMenu'); ?>
-        <?php $browseMenu = QubitMenu::getById(QubitMenu::BROWSE_ID); ?>
-        <?php if ($browseMenu->hasChildren()) { ?>
-            <h2 class="h5 p-3 mb-0">
-                <?php echo __('Browse by'); ?>
-            </h2>
-            <div class="list-group list-group-flush">
-                <?php foreach ($browseMenu->getChildren() as $item) { ?>
-                <a
-                    class="list-group-item list-group-item-action"
-                    href="<?php echo url_for($item->getPath(['getUrl' => true, 'resolveAlias' => true])); ?>">
-                    <?php echo esc_specialchars($item->getLabel(['cultureFallback' => true])); ?>
-                </a>
-                <?php } ?>
+<section class="py-5 container">
+    <style type="text/css">
+        .welcome-message__container { background-image:url(/plugins/arORB5Plugin/images/homepage-bg.jpg); }
+        @media (max-device-width: 667px) {
+        .welcome-message__container { background-image:url(/plugins/arORB5Plugin/images/homepage-bg.jpg); }
+        }
+    </style>
+    <div class="welcome-message__container w-100" title="...">
+        <div class="welcome-message__row row">
+            <div class="welcome-message__inner">
+                <h1 class="welcome-message">Oregon Historical Society Digital Collections</h1>
             </div>
-        <?php } ?>
+        </div>
     </div>
-  </div>
-
+    <div id="homepage-hero" class="row" title="...">
+        <div class="container">
+            <?php echo get_component('menu', 'staticPagesMenu'); ?>
+            <?php $browseMenu = QubitMenu::getById(QubitMenu::BROWSE_ID); ?>
+            <?php if ($browseMenu->hasChildren()) { ?>
+                <h2 class="h5 p-3 mb-0">
+                    <?php echo __('Browse by'); ?>
+                        </h2>
+                        <div class="list-group list-group-flush">
+                            <?php foreach ($browseMenu->getChildren() as $item) { ?>
+                                <a
+                                    class="list-group-item list-group-item-action"
+                                    href="<?php echo url_for($item->getPath(['getUrl' => true, 'resolveAlias' => true])); ?>">
+                                    <?php echo esc_specialchars($item->getLabel(['cultureFallback' => true])); ?>
+                                </a>
+                            <?php } ?>
+                        </div>
+                    <?php } ?>
+        </div>
+    </div>
+</section>
 <div class="container" style="max-height: 500px;">
     <div class="row">
     <div class="col-sm-8">
