@@ -1,16 +1,5 @@
-<?php decorate_with('layout'); ?>
 
-<?php slot('title'); ?>
-  <h1><?php echo render_title($resource->getTitle(['cultureFallback' => true])); ?></h1>
-<?php end_slot(); ?>
 
-<?php if (QubitAcl::check($resource, 'update')) { ?>
-  <?php slot('after-content'); ?>
-    <section class="actions mb-3">
-      <?php echo link_to(__('Edit'), [$resource, 'module' => 'staticpage', 'action' => 'edit'], ['class' => 'btn atom-btn-outline-light']); ?>
-    </section>
-  <?php end_slot(); ?>
-<?php } ?>
 <?php echo get_component('menu', 'staticPagesMenu'); ?>
 <?php $browseMenu = QubitMenu::getById(QubitMenu::BROWSE_ID); ?>
   <?php if ($browseMenu->hasChildren()) { ?>
