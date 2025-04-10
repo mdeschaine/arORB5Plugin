@@ -52,14 +52,4 @@
         <p class="foot__copyright">© Copyright 2017 Oregon Historical Society</p>
     </div>
     
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BK4MXDS94K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BK4MXDS94K');
-</script>
-
 </footer>
