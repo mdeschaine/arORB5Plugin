@@ -1,12 +1,12 @@
 <footer class="foot">
-    <div class="ohsrow">
+    <div class="row">
         <header class="foot-signoff">
             <a name="footer" id="footer"></a>
             <h1 class="foot-signoff__title">Experience Oregon History</h1>
             <p class="foot-signoff__message">The Oregon Historical Society is dedicated to making Oregon's long, rich history visible and accessible to all. For more than a century, the Oregon Historical Society has served as the state's collective memory, preserving a vast collection of artifacts, photographs, maps, manuscript materials, books, films, and oral histories. Our research library, museum, digital platform, educational programming, and historical journal make Oregon's history open and accessible to all. We exist because history is powerful, and because a history as deep and rich as Oregon's cannot be contained within a single story or point of view.</p>
         </header>
     </div>
-    <div class="ohsrow">
+    <div class="row">
         <div class="foot__left-side">
             <div class="foot-contact">
                 <h3 class="foot__section-title">Contact Us</h3>
@@ -47,7 +47,7 @@
             </div>
         </div>
     </div>
-    <div class="ohsrow foot-footer">
+    <div class="row foot-footer">
         <p class="foot__legal"><a class="foot-footer__link" href="http://www.ohs.org/contact.cfm" target="_blank">Contact OHS</a> <a class="foot-footer__link" href="http://www.ohs.org/privacy-policy.cfm" target="_blank">Privacy Policy</a> </p>
         <p class="foot__copyright">© Copyright 2017 Oregon Historical Society</p>
     </div>
