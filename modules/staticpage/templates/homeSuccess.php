@@ -42,15 +42,16 @@
     </div>
 </div>
 <div class="row">
-  <div class="col-sm-6">
-    <div class="card w-75">
+  <div class="col-sm-8">
+    <div class="card">
+        <img src="/plugins/arORB5Plugin/images/new-box.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
-        <a href="#" class="btn btn-primary">See What's New</a>
+        <a href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0" class="btn btn-primary">See What's New</a>
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="card w-25">
+  <div class="col-sm-4">
+    <div class="card">
       <div class="card-body">
         <h5 class="card-title">Visit The Library</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
