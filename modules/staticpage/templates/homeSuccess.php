@@ -159,35 +159,38 @@
     <div id="partner-block" class="row">
         <section class="partner-sites">
             <h2 class="partner-sites__hed">Content Partners</h2>
-            <div class="partner-sites__grid">
-                <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
-                    <div class="partner-site__img" style="background-image:url(/plugins/arORB5Plugin/images/box1.jpg);"></div>
-                    <div class="partner-site__text-holder col">
-                        <div class="partner-site__text">
-                            <h1 class="partner-site__hed">Gay and Lesbian Archives<br>of the Pacific Northwest</h1>
-                            <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
-                        </div>
+                <div class="row row-cols-1 row-cols-md-3 g-3">
+                    <div class="col">
+                        <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
+                            <div class="partner-site__img" style="background-image:url(/plugins/arORB5Plugin/images/box1.jpg);"></div>
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c"/>
+                                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Gay and Lesbian Archives of the Pacific Northwest</text>
+                            </svg>
+                        </a>
                     </div>
-                </a>
-                <a class="partner-site" href="/united-states-district-court-oral-history-project">
-                    <div class="partner-site__img" style="background-image:url(/plugins/arORB5Plugin/images/box2.jpg);"></div>
-                    <div class="partner-site__text-holder col">
-                        <div class="partner-site__text">
-                            <h1 class="partner-site__hed">U.S. District Court of Oregon<br>Historical Society</h1>
-                            <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
-                        </div>
+                    <div class="col">
+                        <a class="partner-site" href="/united-states-district-court-oral-history-project">
+                            <div class="partner-site__img" style="background-image:url(/plugins/arORB5Plugin/images/box2.jpg);"></div>
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c"/>
+                                <text x="50%" y="50%" fill="#eceeef" dy=".3em">>U.S. District Court of Oregon Historical Society</text>
+                            </svg>
+                        </a>
+                    </div> 
+                    <div class="col">
+                        <a class="partner-site" href="/the-immigrant-story">
+                            <div class="partner-site__img" style="background-image:url(/plugins/arORB5Plugin/images/box3.jpg);"></div>
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c"/>
+                                <text x="50%" y="50%" fill="#eceeef" dy=".3em">The Immigrant Story</text>
+                            </svg>
+                        </a>
                     </div>
-                </a>
-                <a class="partner-site" href="/the-immigrant-story">
-                    <div class="partner-site__img" style="background-image:url(/plugins/arORB5Plugin/images/box3.jpg);"></div>
-                    <div class="partner-site__text-holder col">
-                        <div class="partner-site__text">
-                            <h1 class="partner-site__hed">The Immigrant Story</h1>
-                            <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                </div>
         </section>
     </div>
 </div>
