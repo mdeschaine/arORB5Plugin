@@ -45,23 +45,6 @@
                 <p>Want to keep up with the latest news from The Oregon Historical Society?</p>
                 <p><strong><a href="https://app.e2ma.net/app2/audience/signup/1780482/32549/" target="blank">Sign up to receive our newsletter!</a></strong></p>
             </div>
-            <div class="foot-social">
-                <h3 class="foot__section-title">Follow Us</h3>
-                <ul class="social-icons">
-                    <li class="social-icons__item"><a class="social-icons__link" title="Facebook" href="https://www.facebook.com/oregonhistory" target="_blank"><svg viewBox="0 0 100 100" class="icon-fbook">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fbook"></use>
-                            </svg></a><span class="screen-reader">Facebook</span></li>
-                    <li class="social-icons__item"><a class="social-icons__link" title="Twitter" href="https://twitter.com/orhist" target="_blank"><svg viewBox="0 0 100 100" class="icon-twitter">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use>
-                            </svg></a><span class="screen-reader">Twitter</span></li>
-                    <li class="social-icons__item"><a class="social-icons__link" title="Instagram" href="https://www.instagram.com/oregonhistoricalsociety/?hl=en" target="_blank"><svg viewBox="0 0 100 100" class="icon-pinterest">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-instagram"></use>
-                            </svg></a><span class="screen-reader">Instagram</span></li>
-                    <li class="social-icons__item"><a class="social-icons__link" title="YouTube" href="http://www.youtube.com/channel/UCeCtHcPsdEys360N-qyPUPA" target="_blank"><svg viewBox="0 0 100 100" class="icon-youtube">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-youtube"></use>
-                            </svg></a><span class="screen-reader">YouTube</span></li>
-                </ul>
-            </div>
         </div>
     </div>
     <div class="ohsrow foot-footer">
