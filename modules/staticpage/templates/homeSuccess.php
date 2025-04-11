@@ -163,7 +163,7 @@
                     <div class="col">
                         <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <image height="225" width="300" href="/plugins/arORB5Plugin/images/box1.jpg" />
+                            <image height="300" width="100%" href="/plugins/arORB5Plugin/images/box1.jpg" />
                             <title>Placeholder</title>
                                 <rect width="100%" height="100%" fill="#55595c"/>
                                 <text x="50%" y="50%" fill="#eceeef" dy=".3em">Gay and Lesbian Archives of the Pacific Northwest</text>
@@ -173,7 +173,7 @@
                     <div class="col">
                         <a class="partner-site" href="/united-states-district-court-oral-history-project">
                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <image height="225" width="300" href="/plugins/arORB5Plugin/images/box2.jpg" />    
+                            <image height="300" width="100%" href="/plugins/arORB5Plugin/images/box2.jpg" />    
                             <title>Placeholder</title>
                                 <rect width="100%" height="100%" fill="#55595c"/>
                                 <text x="50%" y="50%" fill="#eceeef" dy=".3em">U.S. District Court of Oregon Historical Society</text>
@@ -183,7 +183,7 @@
                     <div class="col">
                         <a class="partner-site" href="/the-immigrant-story">
                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <image height="225" width="300" href="/plugins/arORB5Plugin/images/box3.jpg" />    
+                            <image height="300" width="100%" href="/plugins/arORB5Plugin/images/box3.jpg" />    
                             <title>Placeholder</title>
                                 <rect width="100%" height="100%" fill="#55595c"/>
                                 <text x="50%" y="50%" fill="#eceeef" dy=".3em">The Immigrant Story</text>
