@@ -162,7 +162,7 @@
                 <div class="row row-cols-1 row-cols-md-3 g-3">
                     <div class="col">
                         <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="386" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                             <image height="300" width="100%" href="/plugins/arORB5Plugin/images/box1.jpg" />
                             <title>Placeholder</title>
                                 <rect width="100%" height="100%" fill="#55595c"/>
@@ -172,7 +172,7 @@
                     </div>
                     <div class="col">
                         <a class="partner-site" href="/united-states-district-court-oral-history-project">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="386" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                             <image height="300" width="100%" href="/plugins/arORB5Plugin/images/box2.jpg" />    
                             <title>Placeholder</title>
                                 <rect width="100%" height="100%" fill="#55595c"/>
@@ -182,7 +182,7 @@
                     </div> 
                     <div class="col">
                         <a class="partner-site" href="/the-immigrant-story">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="386" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                             <image height="300" width="100%" href="/plugins/arORB5Plugin/images/box3.jpg" />    
                             <title>Placeholder</title>
                                 <rect width="100%" height="100%" fill="#55595c"/>
