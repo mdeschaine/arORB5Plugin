@@ -7,9 +7,10 @@ Customize variables:
 - Import B5 functions, variables and mixins if needed.
 
 */
-@import "variables";
-@import "fonts";
+
 @import "../../arDominionB5Plugin/scss/main.scss";
+@import "variables";
+@import "custom";
 
 
 /*
